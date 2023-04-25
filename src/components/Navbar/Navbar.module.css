@@ -1,0 +1,16 @@
+.containerNavbar {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(159, 145, 199);
+}
+
+.active {
+  color: black;
+  font-weight: bold;
+}
+
+.noActive {
+  color: rgb(93, 77, 136);
+}
