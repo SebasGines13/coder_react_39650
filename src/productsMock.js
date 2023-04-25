@@ -1,17 +1,17 @@
 export const products = [
   {
     id: 1,
-    title: "ARGENTINA 2023",
+    title: "CAMISETA DE ARGENTINA 2023",
     price: 30000,
     stock: 2,
     description:
       "Camiseta Selección Argentina 2023 REPLICA con todos los agregados en vinilo + escudo AFA bordado",
     category: "camisetas",
-    img: "https://res.cloudinary.com/dxnr1viro/image/upload/v1682375415/ARG2022_A_qplvmh.jpg",
+    img: "https://res.cloudinary.com/dxnr1viro/image/upload/v1682386732/ugjgzeqcg3k0amuvor7i.png",
   },
   {
     id: 2,
-    title: "FRANCIA 2023",
+    title: "CAMISETA DE FRANCIA 2023",
     price: 20000,
     stock: 2,
     description:
@@ -21,11 +21,11 @@ export const products = [
   },
   {
     id: 3,
-    title: "PORTUGAL 2023",
+    title: "CAMISETA DE PORTUGAL 2023",
     price: 19000,
     stock: 5,
     description:
-      "Camiseta Selección de Portugal 2023 REPLICA. Este tejido de alto rendimiento, confeccionado en poliéster y microfibra, absorbe el sudor del cuerpo y lo traslada a la superficie del tejido",
+      "Camiseta Selección de Portugal 2023 REPLICA. Este tejido de alto rendimiento, confeccionado en poliéster y microfibra",
     category: "camisetas",
     img: "https://res.cloudinary.com/dxnr1viro/image/upload/v1682376775/832975_657_A_wwxdhb.jpg",
   },

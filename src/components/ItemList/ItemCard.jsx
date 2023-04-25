@@ -31,14 +31,18 @@ const ItemCard = ({ item }) => {
         <Typography gutterBottom variant="h5" component="div">
           {item.title}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography
+          style={{ height: 75 }}
+          variant="body2"
+          color="text.secondary"
+        >
           {item.description}
         </Typography>
-        <Typography variant="body2" color="primary">
+        <Typography variant="h6" color="primary">
           ${item.price}
         </Typography>
       </CardContent>
-      <CardActions style={{ height: 100 }}>
+      <CardActions style={{ justifyContent: "center" }}>
         <Link to={`/item/${item.id}`}>
           <Button variant="contained" size="small">
             Ver detalle
